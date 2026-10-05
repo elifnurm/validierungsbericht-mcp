@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "functions": {
+    "api/mcp.py": {
+      "runtime": "python3.12"
+    }
+  },
+  "routes": [
+    {
+      "src": "/mcp",
+      "dest": "/api/mcp.py"
+    }
+  ]
+}
